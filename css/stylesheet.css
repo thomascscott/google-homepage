@@ -1,0 +1,165 @@
+body {
+	font-family: arial, sans-serif;
+	min-height: 100%;
+  /* equal to footer height */
+  	margin-bottom: -142px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+li {
+	display: inline;
+}
+
+header {
+	margin-right: 30px;
+	margin-top: 15px;
+	font-size: 13px;
+	color: #404040;
+}
+
+header a:hover {
+	color:black;
+}
+
+header ul {
+	text-align: right;
+}
+
+header li {
+	padding-right: 11px;
+}
+
+header li:last-child { /*So that footer and header margins are alligned*/
+	padding-right: 0px;
+}
+
+.icons {
+	background-image: url(../img/icons.png);
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#apps .icons {
+	background-position: -326px -52px;
+	opacity: .55; 
+	margin-top: -3px;
+}
+
+#apps .icons:hover {
+	opacity: 1;
+	cursor: default;
+}
+
+#sign {
+	background-color: #4285F4;
+	display: inline-block;
+	color: white;
+	padding: 8px 13px 7px;
+	font-weight: bold;
+	border-radius: 2px;
+}
+
+/*MAIN SECTION */
+
+.logo {
+	width: 269px;
+	height: 95px;
+	padding-top: 134px;
+	padding-bottom: 20px;
+
+}
+
+.wrap {
+	text-align: center;
+
+}
+
+.input {
+	width: 30em;
+	height: 27px;
+	margin: auto;
+	border: solid 1px #D3D3D3;
+	border-top-color: #C0C0C0; 
+	border-radius: 2px;
+}
+
+.input:hover {
+	border: solid 1px #8F8F8F;
+	border-top-color: #646464;
+}
+
+.input:focus {
+	border: solid 1px #4285F4;
+}
+
+#submitSearch {
+	margin-top: 14px;
+}
+
+input.button {
+  background-color: #F5F5F5;
+  font-size:11px;
+  padding: 8px 11px 6px;
+  border: solid #e6e6e6 1px;
+  color: #444444;
+  font-weight: bold;
+  border-radius: 2px;
+  cursor: default;
+
+}
+
+input.button:hover {
+	box-shadow: 1px 1px 0px #e6e6e6;
+	border-color: #CFCFCF;
+}
+
+/*Adding margin to #search moved the input field, but did not for #lucky*/ 
+ #lucky {
+	margin-left: 1%;
+} 
+
+footer{
+	position: fixed;
+	display: block;
+	bottom:0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #F2F2F2;
+	font-size: 13px;
+	border-top: solid #E4E4E4 1px;
+	color: #666666;
+}
+
+footer li {
+	padding-right: 27px;
+}
+
+footer li:last-child {
+	padding-right: 0px;
+}
+
+footer .right {
+	float: right;
+	margin-right: 30px;
+}
+
+footer .left {
+	float: left;
+	margin-left: 30px;
+} 
